@@ -26,3 +26,10 @@ npm run build
 - `路径@`表示`src文件夹`,`路径css`表示`src/modules/css`，`路径js`表示`src/modules/js`,`路径cp`表示`src/components`
 - `src/pages/`下的 各个文件夹 里的js文件是入口文件，通过`import`引入css和js
 - `src/modules/js/api.js`用于存放接口地址
+
+```javascript
+'@': resolve('src'),
+'css': '@/modules/css',
+'js': '@/modules/js',
+'cp': '@/components',
+```
